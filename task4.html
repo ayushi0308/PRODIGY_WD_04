@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- -----------NAV-MENU-------------- -->
+    <header class="header">
+        <a href="#" class="logo">My<span>Portfolio</span></a>
+        <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#about">AboutMe</a>
+                <a href="#projects">Projects</a>
+        </nav>
+        <a href="#contact-form" class="contact">ContactMe</a>
+
+    </header>
+
+    <!-- -----------Home--------------------- -->
+    <section id="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Ayushi<br></span>a Developer</h1>
+
+            <p>
+                Hello! I'm Ayushi, a passionate web developer currently honing my skills and working on exciting projects using HTML, CSS, JavaScript, and ReactJS. 
+                As a student pursuing a Master of Computer Applications (MCA), I am dedicated to continuously learning and applying my knowledge to create dynamic and user-friendly web applications.</p>
+            <div class="btn-box">
+                <button id="btn1">LinkedIn</button>
+                <a href="Resume.pdf"><Button id="btn2">Resume</Button></a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="myphoto.jpeg">
+        </div>
+    </section>
+
+
+    <!-- -------------ABOUT------------- -->
+    <section id="about">
+        <div class="about-img">
+            <img src="myphoto.jpeg">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About<span>Me</span>
+            </h2>
+            <h3>Frontend<span>Developer</span></h3>
+            <p>Hello! I'm Ayushi, a student with a solid academic background. I hold a Bachelor's degree in Computer Science (B.Sc. CS) from Mumbai University and am currently pursuing my Master's in Computer Applications (MCA) at NMIMS.<br><br>
+                Key responsibilities:
+                Developing responsive web pages with HTML, CSS, and JavaScript
+                Building interactive user interfaces with ReactJS
+                Collaborating with team members to enhance web applications<br>
+                Skills:
+                Web Technologies: HTML, CSS, JavaScript, ReactJS<br>
+                Tools: Git, Node.js<br>
+                Databases: MySQL, MongoDB<br>
+                Goals:<br>
+                I am passionate about learning and collaborating with others in the tech community.</p>
+                <a href="Resume.pdf"><Button id="btn2">Resume</Button></a>
+
+        </div>
+    </section>
+
+    <!-- -----------contact-------------- -->
+
+    <section id="contact-form">
+        <h2 class="contact-me">Contact<span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" id="btn1">
+        </form>
+    </section>
+
+
+    <!-- -------------Projects-------------- -->
+    <section id="projects">
+        <h2>My<span>Projects</span></h2>
+        <div class="project-content">
+            
+            <h3><span>1</span> : A responsive landing page using HTML, CSS, and JavaScript.<br>
+            <a href="https://lnkd.in/d5EbU2UC">[Click here to check out my #1 project]</a></h3>
+            <h3><span>2</span> : A stopwatch application using HTML, CSS, and JavaScript. <br>
+                <a href="https://lnkd.in/dDgpBtUn"> [Click here to check out my #2 project]</a></h3>
+            <h3><span>3</span> : A fully functional Tic-Tac-Toe game using HTML, CSS, and JavaScript. <br>
+                <a href="https://lnkd.in/dRwMdmQQ"> [Click here to check out my #3 project]</a></h3>
+            <h3><span>4</span> : A Portfolio website which showcases my skills, education etc <br>
+                <a href="https://lnkd.in/d5EbU2UC"> [Click here to check out my #4 project]</a></h3>
+
+        </div>
+    </section>
+
+
+
+    <!-- ----------footerr------------ -->
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.linkedin.com/in/ayushi-d-a991291b7"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/ayushi0308"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#about">AboutMe</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact-form">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2023 Ayushi | All Rights Reserved</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
